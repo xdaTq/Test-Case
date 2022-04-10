@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+.center-max-size {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.poster {
+    background-size: cover;
+    background-position: top center;
+    min-height: 600px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.poster-content {
+    width: 80%;
+}
+
+h1 {
+    font-size: 92px;
+    margin-top: 0;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.container {
+    background-image: linear-gradient(#8575F5, #D973FD);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button {
+    margin: 20px 0;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    color: #fff;
+    height: 50px;
+    background-image: linear-gradient(to left, #8575F5, #D973FD);
+}
+
+.button:hover {
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+}
+
+.close-video {
+    position: absolute;
+    z-index: 2;
+    bottom: 10px;
+    left: 10px;
+}
+
+.youtube-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.test-case {
+    color: #0F1014;
+    font-weight: bold;
+}
+
+/*-- MOVIE */
+
+.movie {
+    position: relative;
+    cursor: pointer;
+    text-align: left;
+    font-size: 25px;
+}
+
+.movie img {
+    height: 355px;
+    max-width: 100%;
+}
+
+.movie-infos {
+    padding: 15px 0;
+}
+
+.movie-title {
+    margin: 0;
+    margin-left: 15%;
+}
+
+.movie-voting {
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    background-color: #0F1014;
+    border: 1px solid #fff;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 25px;
+}
+
+/** SEARCH **/
+.form {
+    position: relative;
+}
+
+.search-bar {
+    height: 30px;
+    width: 250px;
+    border-radius: 0.2rem;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(231, 231, 231);
+}
+
+/* Actor Profile */
+.actor-profile {
+    display: flex;
+    list-style-type: none;
+}
+
+.actor-popularity {
+    width: 35px;
+    background-color: #0F1014;
+    border: 1px solid #fff;
+    padding: 9px;
+    font-size: 12px;
+    border-radius: 50%;
+}
