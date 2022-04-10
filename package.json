@@ -1,8 +1,8 @@
 {
   "name": "test-case",
   "version": "0.1.0",
-  "private": false,
-  "hostpage": "https://xdaTq.github.io/Test-Case",
+  "private": true,
+  "hostpage": "https://xdaTq.github.io/test-tase",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
